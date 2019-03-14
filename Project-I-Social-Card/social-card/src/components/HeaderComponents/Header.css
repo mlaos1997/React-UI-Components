@@ -1,1 +1,29 @@
-/* All styles for your header Components live here */
+.container-header {
+  display: flex;
+  height: 50px;
+  padding: 10px;
+  font-size: 12px;
+}
+
+.thumb-wrapper {
+  height: 50px;
+  padding: 0.3em;
+}
+
+.thumb-img {
+  height: 100%;
+}
+
+.header-title {
+  padding: 0 0.3em;
+}
+
+.header-wrapper {
+  flex-direction: column;
+  margin-top: 0.6em;
+}
+
+.content {
+  width: 93%;
+  margin-bottom: 15px;
+}

@@ -1,2 +1,16 @@
-import React from 'react';
-import './Header.css';
+import React from "react";
+import HeaderContent from "./HeaderContent";
+import "./Header.css";
+
+const HeaderTitle = () => {
+  return (
+    <div className="header-wrapper">
+      <div className="header-title">
+        Lambda School
+        <HeaderContent />
+      </div>
+    </div>
+  );
+};
+
+export default HeaderTitle;
